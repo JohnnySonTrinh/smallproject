@@ -53,6 +53,40 @@ select #due-date {
     background-color: #1C5893;
 }
 
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #todo-list button {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #todo-list button:hover {
+    background-color: #ff1e3d;
+  }
+
 @media (max-width: 320px) {
     #todo-form {
         align-items: center;
