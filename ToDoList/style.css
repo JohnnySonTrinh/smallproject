@@ -2,15 +2,61 @@
 
 body {
     font-family: 'Muli', sans-serif;
-    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     background-color: #0d1111;
     overflow: hidden;
+    flex-direction: column;
 }
 
 h1 {
     color: #f1f1f1;
+    margin: 10px;
+}
+
+#todo-form {
+    flex-direction: row;
+    margin: 20px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+#todo-input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #6995bf;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+select #due-date {
+    width: 33%;
+    border: 1px solid #6995bf;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    flex-wrap: row wrap;
+}
+
+#add-button {
+    width: 25%;
+    padding: 10px 20px;
+    background-color: #6995BF;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #1C5893;
+}
+
+@media (max-width: 320px) {
+    #todo-form {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }

@@ -8,6 +8,21 @@
   </head>
   <body>
     <h1>To do list</h1>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="What needs to be done?" />
+      <button type="submit" id="add-button">Add</button>
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <select id="category">
+        <option value="work">Work</option>
+        <option value="personal">Personal</option>
+        <option value="urgent">Urgent</option>
+      </select>
+      <input type="date" id="due-date" />
+    </form>
     <script src="script.js"></script>
   </body>
 </html>
