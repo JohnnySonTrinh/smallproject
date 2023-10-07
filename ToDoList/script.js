@@ -93,5 +93,3 @@ function sortByDueDate() {
 
 // Call loadFromLocalStorage when the page loads
 loadFromLocalStorage();
-
-localStorage.clear();
