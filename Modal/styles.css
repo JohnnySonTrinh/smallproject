@@ -183,7 +183,8 @@ Modal
 */
 .hero {
   min-height: 100vh;
-  background-image: url('wallpapper.image.jpg') center/cover no-repeat;
+  background-color: ;
+  background-image: url('hero.jpeg');
   display: grid;
   place-items: center;
 }
