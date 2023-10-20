@@ -183,11 +183,12 @@ Modal
 */
 .hero {
   min-height: 100vh;
-  background-color: ;
+  background-color: #222;
   background-image: url('hero.jpeg');
   display: grid;
   place-items: center;
 }
+
 .banner {
   background: var(--clr-white);
   padding: 4rem 0;
