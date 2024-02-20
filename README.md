@@ -19,3 +19,6 @@ Only HTML, CSS, JS
 13. Lorem Ipsum
 14. Grocery Bud
 15. Slider
+16. StarFall
+17. Todolist
+18. Christmas
