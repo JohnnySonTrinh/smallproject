@@ -1,0 +1,85 @@
+:root {
+  --bg: rgb(9, 9, 11);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--bg);
+  margin: 0;
+  color: white;
+}
+
+header {
+  display: flex;
+  background: var(--bg) / 0.6;
+  color: white;
+  margin: 0;
+  height: 3.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.container {
+  display: flex;
+
+  nav {
+    background: var(--bg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    a {
+      color: gray;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+
+  .logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    span {
+      padding-bottom: 0.55rem;
+    }
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 0.55rem;
+  }
+  i {
+    color: white;
+    font-size: 1rem;
+  }
+
+  i:hover {
+    background: gray;
+  }
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  width: 16rem;
+  height: 1.5rem;
+}
+
+.btn-search:hover {
+  color: white;
+  background-color: grey;
+}
