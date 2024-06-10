@@ -9,63 +9,88 @@ body {
   color: white;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 header {
-  display: flex;
   background: var(--bg) / 0.6;
   color: white;
   margin: 0;
-  height: 3.5rem;
-  padding: 0 1.5rem 0 1.5rem;
-  width: 100%;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.457);
 }
 
 .container {
   display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 3.5rem;
+  max-width: 1536px;
 
-  nav {
-    background: var(--bg);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    a {
-      color: gray;
-      text-decoration: none;
-      font-size: 1em;
-    }
-
-    ul {
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      gap: 1.5rem;
-    }
-  }
-
-  .logo {
-    font-weight: bold;
+  ul {
+    list-style-type: none;
     display: flex;
-    align-items: center;
-
-    span {
-      padding-bottom: 0.55rem;
-    }
+    flex-direction: row;
   }
 
-  .flex {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 0.55rem;
-  }
   i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 36px;
+    height: 36px;
+    border-radius: 0.5rem;
+  }
+
+  a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1em;
   }
 
   i:hover {
     background: gray;
   }
+}
+
+.navbar {
+  background: var(--bg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  ul {
+    gap: 1.5rem;
+  }
+}
+
+.logo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+  span {
+    padding-bottom: 0.55rem;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 0.55rem;
+  flex: 1;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .btn-search {
@@ -82,4 +107,16 @@ header {
 .btn-search:hover {
   color: white;
   background-color: grey;
+}
+
+.showcase-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.text-center {
+  font-size: 1.2rem;
 }
