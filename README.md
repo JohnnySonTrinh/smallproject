@@ -2,6 +2,8 @@
 
 Only HTML, CSS, JS
 
+Current small project: Vanilla-Chanllenge
+
 ## You can see all projects in action here
 
 1. Color Flipper
