@@ -62,6 +62,10 @@ header {
     font-size: 1em;
   }
 
+  a:hover {
+    color: white;
+  }
+
   i:hover {
     background: gray;
   }
