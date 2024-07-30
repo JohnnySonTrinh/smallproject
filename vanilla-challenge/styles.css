@@ -153,6 +153,22 @@ kbd {
   height: 600px;
 }
 
+.btn-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  background-color: hsl(240 3.7% 15.9%);
+  height: 2rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.padding-1 {
+  padding-right: 5px;
+}
+
 .text-center {
   font-size: 1.2rem;
 }
