@@ -1,5 +1,6 @@
 :root {
   --bg: rgb(9, 9, 11);
+  --clr-white: rgb(255, 255, 255);
   --clr-grey: rgba(128, 128, 128, 0.493);
 }
 
@@ -7,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--bg);
   margin: 0;
-  color: white;
+  color: var(--clr-white);
 }
 
 h1 {
@@ -21,15 +22,15 @@ a {
 .btn {
   padding: 0.5rem 1rem;
   background: var(--bg);
-  color: white;
-  border: 1px solid white;
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
 header {
   background: var(--bg) / 0.6;
-  color: white;
+  color: var(--clr-white);
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -61,7 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--clr-white);
     font-size: 1.2rem;
     width: 36px;
     height: 36px;
@@ -69,23 +70,23 @@ header {
   }
 
   a {
-    color: gray;
+    color: var(--clr-grey);
     text-decoration: none;
     font-size: 1em;
   }
 
   a:hover {
-    color: white;
+    color: var(--clr-white);
   }
 
   i:hover {
-    background: gray;
+    background: var(--clr-grey);
   }
 }
 
 .navbar {
   background: var(--bg);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px var(--bg);
 
   ul {
     gap: 1.5rem;
@@ -120,8 +121,8 @@ header {
 }
 
 kbd {
-  background: gray;
-  color: white;
+  background: var(--clr-grey);
+  color: var(--clr-white);
   padding: 0.1rem 0.3rem;
   border-radius: 0.2rem;
   font-size: 0.6rem;
@@ -131,17 +132,17 @@ kbd {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: gray;
+  color: var(--clr-grey);
   background: transparent;
-  border: 1px solid gray;
+  border: 1px solid var(--clr-grey);
   border-radius: 0.5rem;
   width: 16rem;
   height: 30px;
 }
 
 .btn-search:hover {
-  color: white;
-  background-color: grey;
+  color: var(--clr-white);
+  background-color: var(--clr-grey);
 }
 
 .showcase-container {
@@ -156,8 +157,8 @@ kbd {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: white;
-  background-color: hsl(240 3.7% 15.9%);
+  color: var(--clr-white);
+  background-color: var(--clr-grey);
   height: 2rem;
   width: 15rem;
   border-radius: 0.5rem;
@@ -179,7 +180,7 @@ kbd {
   margin-top: 1rem;
 
   a {
-    color: gray;
+    color: var(--clr-grey);
     font-size: 1rem;
   }
 }
