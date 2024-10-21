@@ -187,3 +187,17 @@ kbd {
     color: var(--clr-white);
   }
 }
+
+footer {
+  background: var(--bg);
+  color: var(--clr-grey);
+  text-align: left;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+
+  a {
+    color: var(--clr-grey);
+    text-decoration: underline;
+  }
+}
