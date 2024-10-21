@@ -183,4 +183,7 @@ kbd {
     color: var(--clr-grey);
     font-size: 1rem;
   }
+  :hover {
+    color: var(--clr-white);
+  }
 }
