@@ -25,3 +25,4 @@ Current small project: Vanilla-Chanllenge
 17. Todolist
 18. Christmas
 19. TextToSpeech
+20. Calculator
